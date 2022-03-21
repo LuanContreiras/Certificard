@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Certificard</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://kit.fontawesome.com/6ad911922d.js" crossorigin="anonymous"></script>
+
+<body>
+  <div class="container">
+    <header class="topo">
+      <div class="perfil">
+        <img class="perfil-Ft" src="https://github.com/LuanContreiras.png" />
+        <div class="texto-header">
+          <h1>Luan Marques Contreiras</h1>
+          <h3>Desenvolvedor Front-end #imersaodev</h3>
+          <div class="icons">
+            <a class="link-icon" href="https://www.instagram.com/lowahn"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a class="link-icon" href="https://github.com/LuanContreiras"><i class="fa-brands fa-github fa-2x"></i></a>
+            <a class="link-icon" href="https://codepen.io/Lowahn"><i class="fa-brands fa-codepen fa-2x"></i></a>
+            <a class="link-icon" href="https://twitter.com/LuanCansado"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            <a class="link-icon" href="https://www.linkedin.com/in/luan-contreiras-9b9b67183/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="tema">
+        <button onClick="mudarTema()">Alterar tema</button>
+      </div>
+    </header>
+
+    <main class="projetos">
+
+      <h2>Projetos da imersão Dev_</h2>
+      <ol>
+        <li onClick="exibir('calculadora')">
+          🔢Calculadora de média
+          <ul>
+            <li class="lista-links" id="calculadora">
+              <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ExbJOKv" data-user="Lowahn" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/Lowahn/pen/ExbJOKv">
+                    Calculadora de média</a> by Luan (<a href="https://codepen.io/Lowahn">@Lowahn</a>)
+                  on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </li>
+          </ul>
+        </li>
+
+        <li onClick="exibir('conversor-moedas')">
+          💰Conversor de moedas
+          <ul>
+            <li class="lista-links" id="conversor-moedas">
+              <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOXJqaW" data-user="Lowahn" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/Lowahn/pen/gOXJqaW">
+                    Conversor de moedas - Dancing Goose</a> by Luan (<a href="https://codepen.io/Lowahn">@Lowahn</a>)
+                  on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </li>
+          </ul>
+        </li>
+
+        <li onClick="exibir('mentalista')">
+          🧐O Mentalista
+          <ul>
+            <li class="lista-links" id="mentalista">
+              <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="RwjzzOq" data-user="Lowahn" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/Lowahn/pen/RwjzzOq">
+                    Mentalista - ID3 - Luan</a> by Luan (<a href="https://codepen.io/Lowahn">@Lowahn</a>)
+                  on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </li>
+          </ul>
+        </li>
+
+        <li onClick="exibir('gameflix')">
+          🎮GameFlix
+          <ul>
+            <li class="lista-links" id="gameflix">
+              <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wvpvWEX" data-user="Lowahn" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/Lowahn/pen/wvpvWEX">
+                    GameFlix v2- ID3</a> by Luan (<a href="https://codepen.io/Lowahn">@Lowahn</a>)
+                  on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </li>
+          </ul>
+        </li>
+
+        <li onClick="exibir('classificacao')">
+          🏆Tabela de classificação
+          <ul>
+            <li class="lista-links" id="classificacao">
+              <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOobqxN" data-user="Lowahn" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/Lowahn/pen/gOobqxN">
+                    Tabela de classificação</a> by Luan (<a href="https://codepen.io/Lowahn">@Lowahn</a>)
+                  on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </li>
+          </ul>
+        </li>
+
+        <li onClick="exibir('trunfo')">
+          🃏Super Trunfo - Hollow Knight
+          <ul>
+            <li class="lista-links" id="trunfo">
+              <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="vYpNzzm" data-user="Lowahn" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/Lowahn/pen/vYpNzzm">
+                    Super Trunfo - Hollow Knight Trunfo- Dia 8</a> by Luan (<a href="https://codepen.io/Lowahn">@Lowahn</a>)
+                  on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </li>
+          </ul>
+        </li>
+
+        <li onClick="exibir('certificard')">
+          👨‍💻Certificard
+          <ul>
+            <li class="lista-links" id="certificard">
+              <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="xxpZWJJ" data-user="Lowahn" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/Lowahn/pen/xxpZWJJ">
+                    Certificard</a> by Luan (<a href="https://codepen.io/Lowahn">@Lowahn</a>)
+                  on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </li>
+          </ul>
+        </li>
+
+      </ol>
+    </main>
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
